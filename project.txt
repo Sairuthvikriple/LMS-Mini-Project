@@ -1,0 +1,1 @@
+This branch adds new LMS features such as course management and student enrollment.
