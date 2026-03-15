@@ -1,0 +1,16 @@
+name: LMS CI Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Display Message
+      run: echo "CI Workflow running successfully"
